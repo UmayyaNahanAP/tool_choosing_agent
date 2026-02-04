@@ -1,0 +1,13 @@
+dataset_size_threshold:
+  small: 1000
+  medium: 10000
+
+weights:
+  accuracy: 0.4
+  speed: 0.25
+  resource: 0.15
+  interpretability: 0.2
+
+constraints:
+  max_latency_seconds: 10
+  offline_required: true
